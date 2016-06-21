@@ -21,3 +21,6 @@ C:\xampp\htdocs\Dropbox\Alcaldia\Alcaldia\obj\Debug\Alcaldia.pdb
 C:\Users\Julian\Source\Repos\Alcaldia\Alcaldia\bin\Debug\Alcaldia.exe.config
 C:\Users\Julian\Source\Repos\Alcaldia\Alcaldia\obj\Debug\Alcaldia.exe
 C:\Users\Julian\Source\Repos\Alcaldia\Alcaldia\obj\Debug\Alcaldia.pdb
+C:\Users\edison\Source\Repos\Alcaldia\Alcaldia\bin\Debug\Alcaldia.exe.config
+C:\Users\edison\Source\Repos\Alcaldia\Alcaldia\obj\Debug\Alcaldia.exe
+C:\Users\edison\Source\Repos\Alcaldia\Alcaldia\obj\Debug\Alcaldia.pdb
