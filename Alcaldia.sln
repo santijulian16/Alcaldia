@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alcaldia", "Alcaldia\Alcaldia.csproj", "{12888146-28C2-4E40-BA24-EBCD20BBF9E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logica", "Logica\Logica.csproj", "{5B0A0792-31D6-4771-B501-91D75BDCC857}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Percistencia", "Percistencia\Percistencia.csproj", "{AB5CE6A9-E6A5-4727-855D-76B61BFCE557}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12888146-28C2-4E40-BA24-EBCD20BBF9E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12888146-28C2-4E40-BA24-EBCD20BBF9E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12888146-28C2-4E40-BA24-EBCD20BBF9E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12888146-28C2-4E40-BA24-EBCD20BBF9E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B0A0792-31D6-4771-B501-91D75BDCC857}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B0A0792-31D6-4771-B501-91D75BDCC857}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B0A0792-31D6-4771-B501-91D75BDCC857}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B0A0792-31D6-4771-B501-91D75BDCC857}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB5CE6A9-E6A5-4727-855D-76B61BFCE557}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB5CE6A9-E6A5-4727-855D-76B61BFCE557}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB5CE6A9-E6A5-4727-855D-76B61BFCE557}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB5CE6A9-E6A5-4727-855D-76B61BFCE557}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

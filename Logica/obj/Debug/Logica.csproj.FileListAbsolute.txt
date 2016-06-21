@@ -1,0 +1,17 @@
+C:\xampp\htdocs\Dropbox\Alcaldia\Logica\bin\Debug\Logica.dll
+C:\xampp\htdocs\Dropbox\Alcaldia\Logica\bin\Debug\Logica.pdb
+C:\xampp\htdocs\Dropbox\Alcaldia\Logica\bin\Debug\mscorlib.dll
+C:\xampp\htdocs\Dropbox\Alcaldia\Logica\bin\Debug\Percistencia.dll
+C:\xampp\htdocs\Dropbox\Alcaldia\Logica\bin\Debug\System.Net.Http.dll
+C:\xampp\htdocs\Dropbox\Alcaldia\Logica\bin\Debug\Percistencia.pdb
+C:\xampp\htdocs\Dropbox\Alcaldia\Logica\bin\Debug\System.Net.Http.xml
+C:\xampp\htdocs\Dropbox\Alcaldia\Logica\bin\Debug\es\mscorlib.resources.dll
+C:\xampp\htdocs\Dropbox\Alcaldia\Logica\bin\Debug\es\System.Net.Http.resources.dll
+C:\xampp\htdocs\Dropbox\Alcaldia\Logica\bin\Debug\normidna.nlp
+C:\xampp\htdocs\Dropbox\Alcaldia\Logica\bin\Debug\normnfc.nlp
+C:\xampp\htdocs\Dropbox\Alcaldia\Logica\bin\Debug\normnfd.nlp
+C:\xampp\htdocs\Dropbox\Alcaldia\Logica\bin\Debug\normnfkc.nlp
+C:\xampp\htdocs\Dropbox\Alcaldia\Logica\bin\Debug\normnfkd.nlp
+C:\xampp\htdocs\Dropbox\Alcaldia\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
+C:\xampp\htdocs\Dropbox\Alcaldia\Logica\obj\Debug\Logica.dll
+C:\xampp\htdocs\Dropbox\Alcaldia\Logica\obj\Debug\Logica.pdb
