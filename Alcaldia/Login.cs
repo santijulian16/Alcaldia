@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Logica;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,10 +17,33 @@ namespace Alcaldia
         {
             InitializeComponent();
         }
+        
 
-        private void label1_Click(object sender, EventArgs e)
+        private void ingresar_Click(object sender, EventArgs e)
         {
+            DataSet ds = new DataSet();
+            Usuarios usuario = new Usuarios();
+            usuario.Cedula = int.Parse(txtDocumento.Text);
+            usuario.Clave = txtClave.Text;
+            ds = usuario.login();
+            if (ds.Tables[0].Rows.Count > 0)
+            {
+                
+                Sesiones.id = int.Parse(ds.Tables[0].Rows[0][0].ToString());
+                Sesiones.nombre = ds.Tables[0].Rows[0][1].ToString();
+                MessageBox.Show("Bienvenido " + Sesiones.nombre);
+                
+            }
+            else
+            {
+                MessageBox.Show("Usuario o Clave Incorrectos");
+            }
+        }
 
+        private void registrar_Click(object sender, EventArgs e)
+        {
+            registrarse registro = new registrarse();
+            registro.ShowDialog();
         }
     }
 }
