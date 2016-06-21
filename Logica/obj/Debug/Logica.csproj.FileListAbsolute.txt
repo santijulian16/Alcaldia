@@ -15,3 +15,10 @@ C:\xampp\htdocs\Dropbox\Alcaldia\Logica\bin\Debug\normnfkd.nlp
 C:\xampp\htdocs\Dropbox\Alcaldia\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
 C:\xampp\htdocs\Dropbox\Alcaldia\Logica\obj\Debug\Logica.dll
 C:\xampp\htdocs\Dropbox\Alcaldia\Logica\obj\Debug\Logica.pdb
+C:\Users\JoséLeonardo\Source\Repos\Alcaldia\Logica\bin\Debug\Logica.dll
+C:\Users\JoséLeonardo\Source\Repos\Alcaldia\Logica\bin\Debug\Logica.pdb
+C:\Users\JoséLeonardo\Source\Repos\Alcaldia\Logica\bin\Debug\Percistencia.dll
+C:\Users\JoséLeonardo\Source\Repos\Alcaldia\Logica\bin\Debug\Percistencia.pdb
+C:\Users\JoséLeonardo\Source\Repos\Alcaldia\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
+C:\Users\JoséLeonardo\Source\Repos\Alcaldia\Logica\obj\Debug\Logica.dll
+C:\Users\JoséLeonardo\Source\Repos\Alcaldia\Logica\obj\Debug\Logica.pdb
