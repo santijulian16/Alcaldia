@@ -34,6 +34,7 @@
             this.txtClave = new System.Windows.Forms.TextBox();
             this.ingresar = new System.Windows.Forms.Button();
             this.registrar = new System.Windows.Forms.Button();
+            this.btnGraficas = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -88,11 +89,22 @@
             this.registrar.UseVisualStyleBackColor = true;
             this.registrar.Click += new System.EventHandler(this.registrar_Click);
             // 
+            // btnGraficas
+            // 
+            this.btnGraficas.Location = new System.Drawing.Point(291, 135);
+            this.btnGraficas.Name = "btnGraficas";
+            this.btnGraficas.Size = new System.Drawing.Size(75, 23);
+            this.btnGraficas.TabIndex = 6;
+            this.btnGraficas.Text = "Graficas";
+            this.btnGraficas.UseVisualStyleBackColor = true;
+            this.btnGraficas.Click += new System.EventHandler(this.btnGraficas_Click);
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(290, 185);
+            this.ClientSize = new System.Drawing.Size(407, 225);
+            this.Controls.Add(this.btnGraficas);
             this.Controls.Add(this.registrar);
             this.Controls.Add(this.ingresar);
             this.Controls.Add(this.txtClave);
@@ -114,5 +126,6 @@
         private System.Windows.Forms.TextBox txtClave;
         private System.Windows.Forms.Button ingresar;
         private System.Windows.Forms.Button registrar;
+        private System.Windows.Forms.Button btnGraficas;
     }
 }

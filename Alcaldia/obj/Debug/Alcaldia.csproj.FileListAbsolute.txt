@@ -35,3 +35,5 @@ C:\Users\edison\Source\Repos\Alcaldia\Alcaldia\obj\Debug\Alcaldia.Login.resource
 C:\Users\edison\Source\Repos\Alcaldia\Alcaldia\obj\Debug\Alcaldia.Properties.Resources.resources
 C:\Users\edison\Source\Repos\Alcaldia\Alcaldia\obj\Debug\Alcaldia.csproj.GenerateResource.Cache
 C:\Users\edison\Source\Repos\Alcaldia\Alcaldia\obj\Debug\Alcaldia.registrarse.resources
+C:\Users\edison\Source\Repos\Alcaldia\Alcaldia\obj\Debug\Alcaldia.graficas.resources
+C:\Users\edison\Source\Repos\Alcaldia\Alcaldia\obj\Debug\Alcaldia.menu.resources

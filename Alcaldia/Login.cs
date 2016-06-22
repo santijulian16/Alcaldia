@@ -32,6 +32,8 @@ namespace Alcaldia
                 Sesiones.id = int.Parse(ds.Tables[0].Rows[0][0].ToString());
                 Sesiones.nombre = ds.Tables[0].Rows[0][1].ToString();
                 MessageBox.Show("Bienvenido " + Sesiones.nombre);
+                menu menu = new menu();
+                menu.ShowDialog();
                 
             }
             else
@@ -44,6 +46,12 @@ namespace Alcaldia
         {
             registrarse registro = new registrarse();
             registro.ShowDialog();
+        }
+
+        private void btnGraficas_Click(object sender, EventArgs e)
+        {
+            graficas grafica = new graficas();
+            grafica.ShowDialog();
         }
     }
 }

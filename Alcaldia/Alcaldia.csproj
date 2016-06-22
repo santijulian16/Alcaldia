@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,11 +47,33 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="alcaldiaDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>alcaldiaDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="alcaldiaDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>alcaldiaDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="graficas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="graficas.Designer.cs">
+      <DependentUpon>graficas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menu.Designer.cs">
+      <DependentUpon>menu.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -61,8 +84,14 @@
       <DependentUpon>registrarse.cs</DependentUpon>
     </Compile>
     <Compile Include="Sesiones.cs" />
+    <EmbeddedResource Include="graficas.resx">
+      <DependentUpon>graficas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menu.resx">
+      <DependentUpon>menu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -76,6 +105,28 @@
     <EmbeddedResource Include="registrarse.resx">
       <DependentUpon>registrarse.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="alcaldiaDataSet.xsc">
+      <DependentUpon>alcaldiaDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="alcaldiaDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>alcaldiaDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="alcaldiaDataSet.xss">
+      <DependentUpon>alcaldiaDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="alcaldiaDataSet1.xsc">
+      <DependentUpon>alcaldiaDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="alcaldiaDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>alcaldiaDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="alcaldiaDataSet1.xss">
+      <DependentUpon>alcaldiaDataSet1.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
